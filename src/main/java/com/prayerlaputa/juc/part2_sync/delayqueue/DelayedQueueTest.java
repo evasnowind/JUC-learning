@@ -11,6 +11,14 @@ import java.util.concurrent.TimeUnit;
  * created on 2020/9/27
  */
 public class DelayedQueueTest {
+    /**
+     * 内容说明参见
+     *
+     * https://www.cnblogs.com/hhan/p/10678466.html
+     *
+     * @param args
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
         Item item1 = new Item("item1", 5, TimeUnit.SECONDS);
         Item item2 = new Item("item2",10, TimeUnit.SECONDS);
